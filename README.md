@@ -41,8 +41,8 @@ Follow Movie Tickets lab and help implement object oriented JavaScript.
 
 |Desired Behaviour | Example Input | Example Output |
 |:-----------------|:-------------:|---------------:|
-|1) Adult user can select from one movie and find the price| 12-64 , Space Balls, 7:00pm| $9.00|
-|
+|1) Adult user can select from one movie and find the price| Adult , Space Balls, 7:00pm| $9.00|
+|2) 
 
 
 

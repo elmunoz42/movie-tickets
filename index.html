@@ -14,22 +14,38 @@
         <div class="row">
           <div class="col-md-6">
             <form id="intakeForm" class="form-group">
-              <label for="customerAge">What is your age</label>
-              <input type="text" id="customerAge" class="form-control">
-              <label for="timeWindow"></label>
-              <input id="timeWindow" type="date">
+              <label for="customerAge">What is your age?</label>
+              <select id="customerAge" class="form-control">
+                <option value=0> Under 3-12 </option>
+                <option value=1> Under 12-17 </option>
+                <option value=2> Adult </option>
+                <option value=3> 65+ </option>
+              </select>
+              <label>What time are you available?</label><br>
+              <label>Start time:</label>
+              <input id="startTime" type="text"><br>
+              <label> End time: </label>
+              <input id="endTime" type="text">
               <select id="movieSelection" class="form-control">
-                <option val=0> Space Balls </option>
-                <option val=1> Star Wars </option>
+                <option value=0> Space Balls </option>
+                <option value=1> Star Wars </option>
+                <option value=2> Flubber </option>
               </select>
               <button type="submit" class="btn" name="button">Submit</button>
             </form>
-
+            <!-- form -->
           </div>
           <!-- column -->
           <div class="col-md-6">
-
-
+            <h3 id="movieTitle"></h3>
+            <p id="movieDescription"></p>
+            <div id="movieDetails" >
+              <ul>
+                <li id="moviePrice"></li>
+                <li id="movieTime"></li>
+              </ul>
+            </div>
+            <!-- movieDetails -->
           </div>
           <!-- column -->
         </div>
