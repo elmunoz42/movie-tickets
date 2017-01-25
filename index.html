@@ -5,12 +5,38 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Bank Account</title>
+    <title>Movie Tickets</title>
   </head>
   <body>
     <div class="container">
-      <h2>Epicodus Credit Union</h2>
+      <h2>Movie Tickets</h2>
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-6">
+            <form id="intakeForm" class="form-group">
+              <label for="customerAge">What is your age</label>
+              <input type="text" id="customerAge" class="form-control">
+              <label for="timeWindow"></label>
+              <input id="timeWindow" type="date">
+              <select id="movieSelection" class="form-control">
+                <option val=0> Space Balls </option>
+                <option val=1> Star Wars </option>
+              </select>
+              <button type="submit" class="btn" name="button">Submit</button>
+            </form>
 
+          </div>
+          <!-- column -->
+          <div class="col-md-6">
+
+
+          </div>
+          <!-- column -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- jumbotron -->
     </div>
+    <!-- container -->
   </body>
 </html>

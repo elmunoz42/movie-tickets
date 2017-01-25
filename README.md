@@ -1,4 +1,4 @@
-# Address Book
+# Movie Tickets
 
 #### Epicodus Intro Week 4 Lab
 
@@ -6,15 +6,15 @@
 
 ## Description
 
-Follow Bank Account lab with business logic using classes and multiple object data entry
+Follow Movie Tickets lab and help implement object oriented JavaScript.
 
 ## Setup/Installation Requirements
 * Clone project
 * Open index.html
 
 ## See this page on GitHub.io
-[https://bseaver.github.io/bank-account/](https://bseaver.github.io/bank-account/)
-[https://elmunoz42.github.io/bank-account/](https://elmunoz42.github.io/bank-account/)
+[https://bseaver.github.io/movie-tickets/](https://bseaver.github.io/movie-tickets/)
+[https://elmunoz42.github.io/movie-tickets/](https://elmunoz42.github.io/movie-tickets/)
 
 ## Known Bugs
 * No known bugs
@@ -37,8 +37,13 @@ Follow Bank Account lab with business logic using classes and multiple object da
 * MIT
 
 ## Specifications
-* Copy Lab
-  ##### Example Input: n/a
-  ##### Example Output: n/a
+  Create a webpage that informs the user about the pricing and timing of movies according to selection of radio buttons.
+
+|Desired Behaviour | Example Input | Example Output |
+|:-----------------|:-------------:|---------------:|
+|1) Adult user can select from one movie and find the price| 12-64 , Space Balls, 7:00pm| $9.00|
+|
+
+
 
 * End specifications
